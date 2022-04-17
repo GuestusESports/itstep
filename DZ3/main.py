@@ -1,12 +1,15 @@
-class Nokia_3310:
-    price=100
-    power=5
-    battery=9999999
-    print("I am unbreakable phone!")
-class Samsung (Nokia_3310):
-    print("I am unbreakable phone!")
-class iPhone (Samsung, Nokia_3310):
-    battery=0.1
-    power=0.1
-    price=9999999999999
-    print("I can be broken if someone touch me!")
+#1
+
+d=int(input('Вага Даринки: '))
+k=int(input('Вага цукерок: '))
+girls=d+d+5
+s=(k-girls)/2
+print("Потрібно зїсти",s,"кілограмів цукерок")
+
+#2
+
+a=int(input('Введіть довжину ребра куба: '))
+v=a**3
+s=a**2*6
+print("Об'єм куба = ",v)
+print("Площа всієї поверхні куба = ",s)
